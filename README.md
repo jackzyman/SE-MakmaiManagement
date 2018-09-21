@@ -1,4 +1,3 @@
-# SE-MakmaiManagement
 # MakmaiManagement
 ## สาชิกในกลุ่ม
 
