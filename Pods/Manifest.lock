@@ -1,0 +1,116 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.3.3):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.36)
+  - FacebookLogin (0.3.3):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.3.3)
+    - FBSDKCoreKit (~> 4.36)
+    - FBSDKLoginKit (~> 4.36)
+  - FacebookShare (0.3.3):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.3.3)
+    - FBSDKCoreKit (~> 4.36)
+    - FBSDKShareKit (~> 4.36)
+  - FBSDKCoreKit (4.38.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.38.0):
+    - FBSDKCoreKit
+  - FirebaseCore (5.1.3):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.1):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+  - FirebaseMessaging (3.1.2):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GRDB.swift (3.4.0)
+  - Kingfisher (4.10.0)
+  - MultilineTextField (0.2.3)
+  - ObjectMapper (3.3.0)
+  - PKHUD (5.2.0)
+  - Protobuf (3.6.1)
+  - ReverseExtension (0.5.0)
+  - SimpleImageViewer (1.1.1)
+  - SwiftMessages (6.0.0):
+    - SwiftMessages/App (= 6.0.0)
+  - SwiftMessages/App (6.0.0)
+  - SwipeCellKit (2.5.0)
+  - UIColor_Hex_Swift (4.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper (~> 5.0)
+  - FacebookCore (~> 0.3.2)
+  - FacebookLogin (~> 0.3.2)
+  - FacebookShare (~> 0.3.2)
+  - FirebaseCore
+  - FirebaseMessaging
+  - GRDB.swift
+  - Kingfisher
+  - MultilineTextField
+  - ObjectMapper
+  - PKHUD (from `https://github.com/pkluz/PKHUD.git`)
+  - ReverseExtension
+  - SimpleImageViewer
+  - SwiftMessages
+  - SwipeCellKit
+  - UIColor_Hex_Swift (~> 4.0.1)
+
+EXTERNAL SOURCES:
+  PKHUD:
+    :git: https://github.com/pkluz/PKHUD.git
+
+CHECKOUT OPTIONS:
+  PKHUD:
+    :commit: e846bda4d31b3d26ddea94ecc5f5e7d933e766e0
+    :git: https://github.com/pkluz/PKHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 9ecbe48cfd37c91a93add7f8cec2b4a2c50a1eec
+  FacebookLogin: bdaea5789e9b364fa8a1990ba3bbba4fd2197415
+  FacebookShare: 14e88f2dcc3a03376304d2a1e10254296076ce88
+  FBSDKCoreKit: 2ab7fdbf600dc6b628ba7a49aa29d357a7b4c74e
+  FBSDKLoginKit: 634fa27e72e33620eb6389253337342c03d4a407
+  FBSDKShareKit: 00290e3db446eed603ff80ac629dcc5e80cf8b74
+  FirebaseCore: 27bd80e5bfaaf9552a1f5cacb4c7e8bb925bab22
+  FirebaseInstanceID: ea5af6920d0a4a29b40459d055bebe4a6c1333c4
+  FirebaseMessaging: d6feeb06218d2675b4149b0ada925a6b707a74cf
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GRDB.swift: 0100cdc153f3a42348652e33e0b5697c53eee792
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  MultilineTextField: 10965d9c3e05a182181bd7971eb009c7607001ae
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  ReverseExtension: 21c8dd4e767f93b56fb97d873686d24160f83945
+  SimpleImageViewer: 34c3a2cde2d9ac022146772cefc27fca14b0c8b1
+  SwiftMessages: da7c981256a65b3e58022d9027a36584cf4eccf5
+  SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
+  UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
+
+PODFILE CHECKSUM: 9e5abff2c7cf5ac348b07d0bae1308077e2c6eeb
+
+COCOAPODS: 1.4.0

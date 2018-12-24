@@ -1,0 +1,6 @@
+framework module Pods_JongYaTests {
+  umbrella header "Pods-JongYaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
